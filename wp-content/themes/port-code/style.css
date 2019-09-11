@@ -1,0 +1,199 @@
+/*  
+ Theme Name: port
+Author: Chris
+Version: 1.0
+ */
+
+ 
+
+ body {
+    /* background-color: #D3D3D3; */
+    background-image: url("http://portfolio.local/wp-content/uploads/2019/08/portfolio.jpg");
+   }
+  .container {
+          width: 90%;
+          margin: 0 auto;
+          padding: 20px;
+          font-size: 120%;       
+  }
+  .float-left {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  .main-div {
+          width: 80%;
+          margin: 0 auto;
+          padding: 20px;
+          font-size: 120%;      
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  nav h1 {
+    list-style-type: none;
+  }
+  .float-right {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  
+  .page-banner {
+    padding: 20px 0 20px 0;
+    
+  }
+  
+  @media (min-width: 530px) {
+  
+    .page-banner {
+      padding: 20px 0 20px 0;
+    }
+  }
+  
+  .page-banner__content {
+    z-index: 2;
+  }
+  
+  .page-banner__title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 3.6rem;
+    margin: 0 0 1rem 0;
+    color: #FFF;
+  }
+  
+  @media (min-width: 530px) {
+  
+    .page-banner__title {
+      font-size: 5rem;
+    }
+  }
+  
+  .headline-center {
+    text-align: center;
+  }
+  .about-us {
+    display: relative;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    padding: 20px;
+    width: 500px;
+    resize:both;
+    overflow: auto;
+    display: inline-block;
+    margin-top: 0px;
+    
+  }
+  .headline--large {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .headshot {
+    border: .2rem solid black;
+    border-radius: 2rem;
+    text-align: center;
+    width: 30%;
+    height: auto;
+  }
+  
+  
+  .headline--small {
+    font-family: 'bold';
+  }
+  
+   .btn {
+     color: blue;
+     padding: 10px;
+     display: inline-block;
+     font-size: 16px;
+     border-radius: 12px;
+     
+    
+     
+  
+   }
+  
+  
+   .t-left {text-align: left}
+  
+  .t-right {text-align: right}
+  
+  .t-center {text-align: center}
+  
+  .t-small {font-size: .85rem}
+  
+  .float-left {float: left}
+  
+  .float-right {float: right}
+  
+  .push-right {margin-right: 20px}
+  
+  
+   .full-width-split__two {
+    width: 100%;
+    position: relative;
+    top: 20%;
+    bottom: 0;
+    display: table;  
+  }
+  .full-width-split__inner {
+    margin: 0;
+    padding: 0;
+    text-align: center;  
+  }
+  .blogpost {
+    font-family: 'bold';
+    font-size: 1.3875rem;
+    margin-bottom: .25rem;
+    padding-left: 107px;
+  }
+  .event-summary {
+    position: relative;
+    padding-left: 107px;
+    min-height: 77px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+  }
+  
+  .headline--tiny {
+    font-family: 'bold';
+    font-size: 1.3875rem;
+    margin-bottom: .25rem;
+  }
+  
+  
+  .professor-cards {
+    text-align: center;
+  
+  }
+  
+   .professor-card__list-item {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    padding: 70px;
+    padding-left: 107px;
+  }
+  
+  .professor-card__image {
+    display: block;
+    transition: opacity .3s ease-out, -webkit-transform .3s ease-out;
+    transition: opacity .3s ease-out, transform .3s ease-out;
+    transition: opacity .3s ease-out, transform .3s ease-out, -webkit-transform .3s ease-out;
+  }
+  
+  .professor-card:hover .professor-card__image {
+    opacity: .80;
+    -webkit-transform: scale(1.1) rotate(4deg);
+            transform: scale(1.1) rotate(4deg);
+  }
+  
+  .one-third {
+    text-align: center;
+  }
