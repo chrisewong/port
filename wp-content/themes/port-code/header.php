@@ -15,7 +15,7 @@
       <div class="main-div">
         <nav class="main-navigation">
           
-             <h1><?php if (get_post_type() == 'post') echo 'class="float-right"' ?><a href="<?php echo site_url('/blog'); ?>">Blog</a></h1>
+             <h1><?php if (get_post_type() == 'post') ?><a href="<?php echo site_url('/blog'); ?>">Blog</a></h1>
             
         </nav>
         

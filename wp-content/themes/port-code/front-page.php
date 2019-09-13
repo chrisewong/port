@@ -4,13 +4,13 @@
   
     <div class="page-banner__content container headline-center">
       <div class="about-us">
-      <h1 class="headline headline--large">Abous Us</h1>
-      <img class="headshot" src="http://portfolio.local/wp-content/uploads/2019/08/Chris-Profile-Image.jpg" alt="headshot" />
+      <h1 class="headline headline--large"></h1>
+      <img class="headshot" src="http://port.local/wp-content/uploads/2019/09/Chris-Profile-Image.jpg" alt="chris-image" />
       <h3 class="headline headline--small">
-        My name is Christopher Wong.  I have built this website using Wordpress, jQuery, javascript, html and CSS. I am always making changes to my website as I run the website on AWS. 
+        My name is Christopher Wong.  I have built this website using Wordpress, jQuery, javascript, html and CSS. 
     </h3>
       <div class="about-button">
-        <a href="http://portfolio.local/wp-content/uploads/2019/08/chrisResume.pdf" download>
+        <a href="http://port.local/wp-content/uploads/2019/09/chrisResume.pdf" download>
           <div class="btn--small">
             <!-- <button id="download-btn">Resume</button> -->
             <button class="btn"><i class="fa fa-download"></i>Resume</button>
