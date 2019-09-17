@@ -5,7 +5,8 @@
     <div class="page-banner__content container headline-center">
       <div class="about-us">
       <h1 class="headline headline--large"></h1>
-      <img class="headshot" src="http://port.local/wp-content/uploads/2019/09/Chris-Profile-Image.jpg" alt="chris-image" />
+      <img src="http://port.local/wp-content/uploads/2019/09/Chris-Profile-Image.jpg" class="image" />
+      <!-- <img class="headshot" src="http://port.local/wp-content/uploads/2019/09/Chris-Profile-Image.jpg" alt="chris-image" /> -->
       <h3 class="headline headline--small">
         My name is Christopher Wong.  I have built this website using Wordpress, jQuery, javascript, html and CSS. 
     </h3>
