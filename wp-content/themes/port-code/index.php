@@ -1,16 +1,17 @@
 <?php get_header(); ?>
 
-  <div class="page-banner">
+  <!-- <div class="page-banner">
     <div class="page-banner__content container blog-post">
       <h1 class="headline blog-center"></h1>
       
     </div>
   </div>
       </div>
-    </div>
+    </div> -->
+
     <div class="full-width-split__two">
       <div class="full-width-split__inner">
-        <h2 class="headline blogpost">Blog Post</h2>
+        <h2 class="headline blogpost">Blog Posts</h2>
         <?php
           $homepagePosts = new WP_Query(array(
             'posts_per_page' => 10
@@ -31,7 +32,7 @@
         
         
         
-        <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p>
+        <!-- <p class="t-center no-margin"><a href="#" class="btn btn--yellow">View All Blog Posts</a></p> -->
       </div>
     </div>
   </div>

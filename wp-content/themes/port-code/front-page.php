@@ -11,7 +11,7 @@
         My name is Christopher Wong.  I have built this website using Wordpress, jQuery, javascript, html and CSS. 
     </h3>
       <div class="about-button">
-        <a href="http://port.local/wp-content/uploads/2019/09/chrisResume.pdf" download>
+        <a href="http://www.thechriswong.com/wp-content/uploads/2019/09/chrisResume.pdf" download>
           <div class="btn--small">
             <!-- <button id="download-btn">Resume</button> -->
             <button class="btn"><i class="fa fa-download"></i>Resume</button>
@@ -21,35 +21,18 @@
     </div>
   </div>
 </div>
-
-          <?php 
-        $relatedProfessors = new WP_Query(array(
-          'posts_per_page' => 2,
-          'post_type' => 'professor'
-          )
-        );
-
-        if ($relatedProfessors->have_posts()) {
-          echo '<hr class="section-break">';
-        
-
-        echo '<ul class="professor-cards">';
-        while($relatedProfessors->have_posts()) {
-          $relatedProfessors->the_post(); ?>
-          <li class="professor-card__list-item">
-            <a class="professor-card" href="<?php the_permalink(); ?>">
-              <img class="professor-card__image" src="<?php the_post_thumbnail_url('professorLandscape') ?>">
-              <span class="professor-card__name"><?php the_title(); ?></span>
-            </a>
-          </li>
-        <?php }
-        echo '</ul>';
-        }
-        
-        wp_reset_postdata();
-        ?>
       
-        
+<form action=”#” method=”post”>
+	<label for=”userName”>NAME</label>
+	<input type=”text” id=”userName” name=”userName” /><br/>
+
+	<label for=”userName”>EMAIL</label>
+  <input type=”email” id=”email” name=”email” /><br/>
+  
+  <label for=”userName”>COMMENT</label>
+	<input type=”email” id=”email” name=”email” /><br/>
+
+</form>
       
       
 

@@ -6,17 +6,16 @@
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
-    <header class="site-header">
-    <div class="container align">
-      <h1 class="logo float-left"><a href="<?php echo site_url() ?>">Chris Wong</a></h1>
-    <span class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></span>
-      <div class="main-div">
-        <nav class="main-navigation">
+
+  <header class="site-header">
+    <div class="container">
+      <h1 class="float-left"><a href="<?php echo site_url() ?>">Chris Wong</a></h1>
+      
+
+      <ul class="nav">
           
-             <h1><?php if (get_post_type() == 'post') ?><a href="<?php echo site_url('/blog'); ?>">Blog</a></h1>
-            
-        </nav>
-        
-      </div>
+          <li><?php if (get_post_type() == 'post') ?><a href="<?php echo site_url('/blog'); ?>">Blog</a></li>
+          <li><?php if (get_post_type() == 'post') ?><a href="<?php echo site_url('/'); ?>">Home</a></li>
+        </ul>
     </div>
   </header>
